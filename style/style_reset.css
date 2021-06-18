@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* RESET*/
+ *{  color: #222;
+     margin: 0 ;
+     padding: 0;
+     text-decoration: none;
+     font-family: 'Nanum Gothic', sans-serif;
+
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body
+{
+   background-color: #fff;
+}
+
+a:link
+{color: #555;}
+
+a:visited
+{color: #555;}
+
+a:hover
+{color: #444;}
+
+a:active
+{color: #444;}
+
+img
+{
+    vertical-align: none;
+}
+
+ul
+{
+    letter-spacing: none;
+}
+
+.flex-container
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+/*RESET*/
+
+/*가이드라인*/
+    div#warp
+{
+    border: 1px solid #000;
+}
+
+hesder#hesder
+{
+    border: 1px solid #000;
+}
+
+div#slide
+{
+    border: 1px solid #000;
+}
+
+div#content
+{
+    border: 1px solid #000;
+}
+footer#footer
+{
+    border: 1px solid #000;
+}
+
+/*가이드라인*/

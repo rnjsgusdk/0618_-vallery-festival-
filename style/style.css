@@ -1,0 +1,107 @@
+@charset"UTF-8"
+@import url(style_reset.css);
+/*div#warp*/
+div#warp
+{
+    height: 1000px;
+    margin: 0 auto;
+}
+/*div#warp*/
+
+/*haeder#header*/
+haeder#header
+{
+   width: 200px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+
+#header>div#hawderlogo
+{
+    text-align: center;
+        padding: 20px 0;
+}
+
+/*nav#gnb
+{
+   border: 1px solid #000;
+
+}*/
+
+ul#mainmun
+{text-align: center;
+  border: 1px solid #000;
+}
+
+/*li.mainli
+{
+    border: 1px solid #000;
+}*/
+
+nav#gnb a
+{
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 50px;
+    border: 1px solid #000;
+    background-color: #d8eaf4;
+    display: inline-block;
+}
+
+li.mainmeun :last-child a
+{
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/*haeder#header*/
+
+/*main#main*/
+main#main
+{
+    margin: 0;
+}
+
+div#slide
+{
+    position: relative;
+}
+
+div#slide span
+{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+line-height: 20px;
+    border-right: 60px;
+
+    background-color:rgba(255, 255, 255, 0.69);
+
+    display: inline-block;
+
+    position: absolute;
+
+   left: 50%;
+   top: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+
+
+
+
+
+/*main#main*/
+
+
